@@ -1,0 +1,131 @@
+* {
+  padding: 0%;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.box1 {
+  width: 40%;
+  height: 100%;
+  background-color: rgb(141, 163, 204);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  color: #fff;
+
+  h4 {
+    font-size: 50px;
+  }
+  p {
+    font-size: 25px;
+    text-align: center;
+    padding: 0 15px;
+  }
+
+  .btn {
+    width: 120px;
+    height: 50px;
+    border-radius: 90px;
+    background-color: rgb(141, 163, 204);
+    color: #fff;
+    font-size: 20px;
+    border-color: #fff;
+    border: 2px solid #fff;
+    cursor: pointer;
+    transition: all 0.5s;
+  }
+  .btn:hover {
+    color: rgb(141, 163, 204);
+    background-color: #fff;
+  }
+}
+
+.box2 {
+  width: 60%;
+  height: 100%;
+  background-color: #fff;
+  text-align: center;
+  padding-top: 100px;
+  h4 {
+    font-size: 50px;
+    color: rgb(141, 163, 204);
+  }
+  .icon-btn {
+    display: inline-block;
+  }
+  .icons {
+    width: 40px;
+    height: 40px;
+    margin: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: #fff;
+    border: 0.5px solid gray;
+
+    i {
+      font-size: 20px;
+    }
+  }
+  p {
+    color: rgb(74, 71, 71);
+    margin: 35px;
+  }
+  .login {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    gap: 10px;
+  }
+  .form-group {
+    width: 70%;
+    text-align: left;
+    border: 1px solid #f4f4f4;
+    outline: none;
+    display: flex;
+    align-items: center;
+    gap : 10px;
+    padding: 12px;
+    background-color: #f6f4f4;
+
+     input {
+      width: 100%;
+      height: 100%;
+      border: none;
+      outline: none;
+      background: transparent;
+    }
+  }
+}
+.btn-up {
+  width: 120px;
+  height: 50px;
+  border-radius: 90px;
+  background-color: rgb(141, 163, 204);
+  color: #fff;
+  font-size: 20px;
+  border-color: #fff;
+  border: 2px solid #fff;
+  cursor: pointer;
+  transition: all 0.5s;
+  margin: 20px;
+}
+.btn-up:hover {
+  background-color: rgb(237, 230, 230);
+  color: rgb(141, 163, 204);
+}
